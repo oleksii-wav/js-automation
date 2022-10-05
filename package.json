@@ -11,7 +11,11 @@
     "url": "git+https://github.com/oleksii-wav/js-automation.git"
   },
   "keywords": [
-    "EPAM"
+    "epam",
+    "learning",
+    "automation",
+    "test",
+    "framework"
   ],
   "author": "Oleksii Fedorenko",
   "license": "ISC",
