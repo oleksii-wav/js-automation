@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/oleksii-wav/js-automation/issues"
   },
-  "homepage": "https://github.com/oleksii-wav/js-automation#readme"
+  "homepage": "https://github.com/oleksii-wav/js-automation#readme",
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
+  }
 }
