@@ -1,0 +1,22 @@
+{
+  "name": "epam-learning",
+  "version": "1.0.0",
+  "description": "EPAM Test Automation Basics Learning ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksii-wav/js-automation.git"
+  },
+  "keywords": [
+    "EPAM"
+  ],
+  "author": "Oleksii Fedorenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksii-wav/js-automation/issues"
+  },
+  "homepage": "https://github.com/oleksii-wav/js-automation#readme"
+}
