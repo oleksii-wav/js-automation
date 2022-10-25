@@ -4,7 +4,6 @@
  */
 
 const animal = {
-    name: "Animal",
     move() {
         console.log("It moves")
     }
