@@ -26,5 +26,5 @@ let divide = (a, b) => {
 try {
     divide(one, zero)
 } catch (err) {
-    console.log('cannot be divided by zero')
+    console.log(err.message)
 }
