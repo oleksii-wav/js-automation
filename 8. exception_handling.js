@@ -4,23 +4,27 @@
  */
 
 try {
-    console.log(a)
+    console.log(a);
+    let a = 1;
 } catch(err) {
-    console.log('let must be declared')
+    console.log('let must be declared before use');
 };
-let a;
 
 /**
  * When running 1/0, the error 'cannot be divided by zero'
  */
 
-let one = 1
-let zero = 0
-try {
-    let result = one/zero
-    if (zero == 0) {
-        throw new Error("cannot be divided by zero")
+let one = 1;
+let zero = 0;
+let divide = (a, b) => {
+    if (b === 0){
+        throw new Error('cannot be divided by zero');
     }
+    return a / b;
+}
+
+try {
+    divide(one, zero)
 } catch (err) {
-    console.log(err.message)
+    console.log('cannot be divided by zero')
 }
